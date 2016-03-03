@@ -1,0 +1,11 @@
+Atomic Emission 
+# This is a Ruby program to determine the Atomic Emisssion details 
+# around Hydrogen. By exciting the electron into higher energy levels
+# and measuring the Energy emitted afterwards when the electron returns 
+# to lower energy levels it is possible to determine whether the energy
+# levels are characterized by realtively high, medium or low energy.
+
+# First we wish to welcome the user and prompt them for their E value in
+# Scientific Notation. This will be a bit tricky since we will prompt for the 
+# Numerical part and exponential part of the E value seperately then have the
+# program assemble them into a single variable.

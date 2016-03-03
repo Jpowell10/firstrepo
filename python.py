@@ -1,7 +1,5 @@
-python.py
-Macbook Air = 50
-print(Macbook Air)
-Macbook Pro = 100
-print(Macbook Pro)
-Macbook Air + Macbook Pro
-print(Macbook Air + Macbook Pro)
+# Get car A Name
+put "mustang"
+puts "Lexus RH400"
+print (Car mustang)
+sys.stdin.readline()
