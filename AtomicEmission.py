@@ -19,9 +19,9 @@ print('')
 
 # First prompt for the significand, the inital number part of the scientific notation.
 # and store the value as a variable named significand.
-input('Please input the significand value (the number at the beginning) of your E value and press return.')
+significand = input('Please input the significand value (the number at the beginning) of your E value and press return.')
 # Now prompt for the exponential power of the sci notation ans store it as a variable.
-input('PLease input the exponential power of your E value ( the number 10 is raised to ) and press return.')
+exponent = input('PLease input the exponential power of your E value ( the number 10 is raised to ) and press return.')
 
 # Use the data inputs from the user to assemble a value for E.
 E = significand * 10**exponent
@@ -34,11 +34,11 @@ c = 299792458.0
 
 # Now divide E by h and store the value as v. This value v represents
 # the frequency or cycles per second of the energy wave emitted.
-v = E / h
+v = E/ h
 
 # Divide C by v to determine the wavelength of a single cycle in meters.
 # This value is then stored as the variable wavelength
-wavelength = C / v
+wavelength = c / v
 
 # Delaration of Visable Light and UV Limits for wavelength used to determine
 # whether the energy emitted is low energy (IR), medium (vis light), or high (uv)
